@@ -79,6 +79,35 @@ public class llklklkl {
 						JOptionPane.showMessageDialog(null, "dog");
 					}
 				 });
+			 b6.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b7.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b8.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b9.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 
 			 
 		  
 		  w.add(p);
