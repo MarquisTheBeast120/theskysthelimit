@@ -51,8 +51,28 @@ public class llklklkl {
 				{
 					JOptionPane.showMessageDialog(null, "cat");
 				}
-			 });		
-		  b3.addActionListener(new ActionListener(){
+			 });		 b3.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b3.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b4.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 b5.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent t)
 					{
