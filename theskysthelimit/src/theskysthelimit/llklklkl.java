@@ -10,16 +10,9 @@ import javax.swing.JPanel;
 
 public class llklklkl {
 	public llklklkl(){
-		
-
-		
-		
 		frame();	
-			
-				
 		}
-
-
+	
 	public void frame(){
 		
 		  JFrame w = new JFrame();
