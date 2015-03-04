@@ -36,21 +36,7 @@ public class llklklkl {
 		 JButton b7 = new JButton("penguin");
 		 JButton b8 = new JButton("shark");
 		 JButton b9= new JButton("zebra");
-
-		 b3.addActionListener(new ActionListener(){
-				@Override
-				public void actionPerformed(ActionEvent t)
-				{
-					JOptionPane.showMessageDialog(null, "dog");
-				}
-			 });
-		 b2.addActionListener(new ActionListener(){
-			@Override
-			public void actionPerformed(ActionEvent r)
-			{
-				JOptionPane.showMessageDialog(null, "cat");
-			}
-		 });
+		 
 		  b1.addActionListener(new ActionListener(){
 			  @Override
 			  public void actionPerformed(ActionEvent e)
@@ -59,7 +45,21 @@ public class llklklkl {
 			  }
 			 
   });  
-		 
+		  b2.addActionListener(new ActionListener(){
+				@Override
+				public void actionPerformed(ActionEvent r)
+				{
+					JOptionPane.showMessageDialog(null, "cat");
+				}
+			 });		
+		  b3.addActionListener(new ActionListener(){
+					@Override
+					public void actionPerformed(ActionEvent t)
+					{
+						JOptionPane.showMessageDialog(null, "dog");
+					}
+				 });
+			 
 		  
 		  w.add(p);
 		  p.add(b1);
