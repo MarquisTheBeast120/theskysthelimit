@@ -29,14 +29,14 @@ public class llklklkl {
 		  JPanel p = new JPanel();
 		  JButton b1 = new JButton("pig"); 
 		 JButton b2 = new JButton("cat");
-		 JButton b3 = new JButton("dog");
-		 JButton b4 = new JButton("cat");
-		 JButton b5 = new JButton("cat");
-		 JButton b6 = new JButton("cat");
-		 JButton b7 = new JButton("cat");
-		 JButton b8 = new JButton("cat");
-		 JButton b9= new JButton("cat");
-		 JButton b10 = new JButton("cat");
+		 JButton b3 = new JButton("snake");
+		 JButton b4 = new JButton("giraffe");
+		 JButton b5 = new JButton("fish");
+		 JButton b6 = new JButton("bunney");
+		 JButton b7 = new JButton("penguin");
+		 JButton b8 = new JButton("shark");
+		 JButton b9= new JButton("zebra");
+
 		 b3.addActionListener(new ActionListener(){
 				@Override
 				public void actionPerformed(ActionEvent t)
@@ -71,7 +71,7 @@ public class llklklkl {
 		  p.add(b7);
 		  p.add(b8);
 		  p.add(b9);
-		  p.add(b10);
+		  
 		  
 		  
 		  
