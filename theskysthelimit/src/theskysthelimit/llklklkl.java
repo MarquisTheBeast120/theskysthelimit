@@ -44,60 +44,54 @@ public class llklklkl {
 				{
 					JOptionPane.showMessageDialog(null, "cat");
 				}
-			 });		 b3.addActionListener(new ActionListener(){
-					@Override
-					public void actionPerformed(ActionEvent t)
+			 });		
+		  b3.addActionListener(new ActionListener(){
+		 		@Override
+					public void actionPerformed(ActionEvent u)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
-					}
-				 });
-			 b3.addActionListener(new ActionListener(){
-					@Override
-					public void actionPerformed(ActionEvent t)
-					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "snake");
 					}
 				 });
 			 b4.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent i)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "giraffe");
 					}
 				 });
 			 b5.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent o)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "fish");
 					}
 				 });
 			 b6.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent p)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "bunney");
 					}
 				 });
 			 b7.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent a)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "penguin");
 					}
 				 });
 			 b8.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent s)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "shark");
 					}
 				 });
 			 b9.addActionListener(new ActionListener(){
 					@Override
-					public void actionPerformed(ActionEvent t)
+					public void actionPerformed(ActionEvent d)
 					{
-						JOptionPane.showMessageDialog(null, "dog");
+						JOptionPane.showMessageDialog(null, "ze-BRA!");
 					}
 				 });
 			 
