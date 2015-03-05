@@ -25,7 +25,7 @@ public class llklklkl {
 		 JButton b3 = new JButton("snake");
 		 JButton b4 = new JButton("giraffe");
 		 JButton b5 = new JButton("fish");
-		 JButton b6 = new JButton("bunney");
+		 JButton b6 = new JButton("bunny");
 		 JButton b7 = new JButton("penguin");
 		 JButton b8 = new JButton("shark");
 		 JButton b9= new JButton("zebra");
@@ -70,7 +70,7 @@ public class llklklkl {
 					@Override
 					public void actionPerformed(ActionEvent p)
 					{
-						JOptionPane.showMessageDialog(null, "bunney");
+						JOptionPane.showMessageDialog(null, "bunny");
 					}
 				 });
 			 b7.addActionListener(new ActionListener(){
