@@ -1,5 +1,6 @@
 package theskysthelimit;
 
+import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
@@ -60,7 +61,7 @@ public class llklklkl {
 		  	  
 		  //all buttons	
 		 
-		  JButton b1 = new JButton("pig"); 
+		  JButton bpig= new JButton("pig"); 
 		 JButton b2 = new JButton("cat");
 		 JButton b3 = new JButton("snake");
 		 JButton b4 = new JButton("giraffe");
@@ -73,13 +74,18 @@ public class llklklkl {
 		//button's actions 
 		 
   
-		  b1.addActionListener(new ActionListener(){
+		  bpig.addActionListener(new ActionListener(){
 			  @Override
 			  public void actionPerformed(ActionEvent e)
 			  {
 				  ez X = new ez();
 				  DrawPanel drawPanel = X.new DrawPanel();
-				  
+				  System.out.println("piggy");
+				  JFrame x = new JFrame();
+				  x.setSize(800,800);
+				  x.setVisible(true);
+				  x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+                   
 			  }
 			 
   });  
@@ -144,7 +150,7 @@ public class llklklkl {
 	     
 	   
 		  w.add(p);
-		  p.add(b1);
+		  p.add(bpig);
 		  p.add(b2);
 		  p.add(b3);
 		  p.add(b4);
