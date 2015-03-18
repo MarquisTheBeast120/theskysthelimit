@@ -93,36 +93,56 @@ public class llklklkl {
 				@Override
 				public void actionPerformed(ActionEvent r)
 				{
-					JOptionPane.showMessageDialog(null, "cat");
-				}
+					 ez X = new ez();
+					  DrawPanel drawPanel = X.new DrawPanel();
+					  JFrame x = new JFrame();
+					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+					  x.setSize(800,800);
+					  x.setVisible(true);				}
 			 });		
 		  bsnake.addActionListener(new ActionListener(){
 		 		@Override
 					public void actionPerformed(ActionEvent u)
 					{
-						JOptionPane.showMessageDialog(null, "snake");
-					}
+		 			 ez X = new ez();
+					  DrawPanel drawPanel = X.new DrawPanel();
+					  JFrame x = new JFrame();
+					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+					  x.setSize(800,800);
+					  x.setVisible(true);					}
 				 });
 			 bgiraffe.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent i)
 					{
-						JOptionPane.showMessageDialog(null, "giraffe");
-					}
+						 ez X = new ez();
+						  DrawPanel drawPanel = X.new DrawPanel();
+						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+						  x.setSize(800,800);
+						  x.setVisible(true);					}
 				 });
 			 bfish.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent o)
 					{
-						JOptionPane.showMessageDialog(null, "fish");
-					}
+						 ez X = new ez();
+						  DrawPanel drawPanel = X.new DrawPanel();
+						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+						  x.setSize(800,800);
+						  x.setVisible(true);					}
 				 });
 			 bbunny.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent p)
 					{
-						JOptionPane.showMessageDialog(null, "bunny");
-					}
+						 ez X = new ez();
+						  DrawPanel drawPanel = X.new DrawPanel();
+						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+						  x.setSize(800,800);
+						  x.setVisible(true);					}
 				 });
 			 bpenguin.addActionListener(new ActionListener(){
 					@Override
@@ -140,15 +160,23 @@ public class llklklkl {
 					@Override
 					public void actionPerformed(ActionEvent s)
 					{
-						JOptionPane.showMessageDialog(null, "shark");
-					}
+						 ez X = new ez();
+						  DrawPanel drawPanel = X.new DrawPanel();
+						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+						  x.setSize(800,800);
+						  x.setVisible(true);					}
 				 });
 			 bzebra.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent d)
 					{
-						JOptionPane.showMessageDialog(null, "ze-BRA!");
-					}
+						 ez X = new ez();
+						  DrawPanel drawPanel = X.new DrawPanel();
+						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
+						  x.setSize(800,800);
+						  x.setVisible(true);					}
 				 });
 			 
 			 
