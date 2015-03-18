@@ -11,6 +11,9 @@ import javax.swing.*;
 import java.awt.*;
 //by Connor Simnitt
 final public class ez {
+	
+	
+	
 	    JFrame frame;
 	    DrawPanel drawPanel;
 	    int a = 139 ;  int b = 69 ; int c = 19; //color for mudpit
@@ -109,4 +112,6 @@ final public class ez {
 	    	            frame.repaint();
 	    	        }
 	    	    }
+
+				
 	    }

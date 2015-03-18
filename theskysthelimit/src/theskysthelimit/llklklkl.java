@@ -63,14 +63,14 @@ public class llklklkl {
 		  //all buttons	
 		 
 		  JButton bpig= new JButton("pig"); 
-		 JButton b2 = new JButton("cat");
-		 JButton b3 = new JButton("snake");
-		 JButton b4 = new JButton("giraffe");
-		 JButton b5 = new JButton("fish");
-		 JButton b6 = new JButton("bunny");
-		 JButton b7 = new JButton("penguin");
-		 JButton b8 = new JButton("shark");
-		 JButton b9= new JButton("zebra");
+		 JButton bcat = new JButton("cat");
+		 JButton bsnake = new JButton("snake");
+		 JButton bgiraffe = new JButton("giraffe");
+		 JButton bfish = new JButton("fish");
+		 JButton bbunny = new JButton("bunny");
+		 JButton bpenguin = new JButton("penguin");
+		 JButton bshark = new JButton("shark");
+		 JButton bzebra= new JButton("zebra");
 		 
 		//button's actions 
 		 
@@ -89,59 +89,61 @@ public class llklklkl {
 			  }
 			 
   });  
-		  b2.addActionListener(new ActionListener(){
+		  bcat.addActionListener(new ActionListener(){
 				@Override
 				public void actionPerformed(ActionEvent r)
 				{
 					JOptionPane.showMessageDialog(null, "cat");
 				}
 			 });		
-		  b3.addActionListener(new ActionListener(){
+		  bsnake.addActionListener(new ActionListener(){
 		 		@Override
 					public void actionPerformed(ActionEvent u)
 					{
 						JOptionPane.showMessageDialog(null, "snake");
 					}
 				 });
-			 b4.addActionListener(new ActionListener(){
+			 bgiraffe.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent i)
 					{
 						JOptionPane.showMessageDialog(null, "giraffe");
 					}
 				 });
-			 b5.addActionListener(new ActionListener(){
+			 bfish.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent o)
 					{
 						JOptionPane.showMessageDialog(null, "fish");
 					}
 				 });
-			 b6.addActionListener(new ActionListener(){
+			 bbunny.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent p)
 					{
 						JOptionPane.showMessageDialog(null, "bunny");
 					}
 				 });
-			 b7.addActionListener(new ActionListener(){
+			 bpenguin.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent a)
 					{
-						 jPenguin X = new jPenguin();
+						jPenguin X = new jPenguin();
+						  theskysthelimit.jPenguin.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(800,800);
 						  x.setVisible(true);
 					}
 				 });
-			 b8.addActionListener(new ActionListener(){
+			 bshark.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent s)
 					{
 						JOptionPane.showMessageDialog(null, "shark");
 					}
 				 });
-			 b9.addActionListener(new ActionListener(){
+			 bzebra.addActionListener(new ActionListener(){
 					@Override
 					public void actionPerformed(ActionEvent d)
 					{
@@ -154,14 +156,14 @@ public class llklklkl {
 	   
 		  w.add(p);
 		  p.add(bpig);
-		  p.add(b2);
-		  p.add(b3);
-		  p.add(b4);
-		  p.add(b5);
-		  p.add(b6);
-		  p.add(b7);
-		  p.add(b8);
-		  p.add(b9);
+		  p.add(bcat);
+		  p.add(bsnake);
+		  p.add(bgiraffe);
+		  p.add(bfish);
+		  p.add(bbunny);
+		  p.add(bpenguin);
+		  p.add(bshark);
+		  p.add(bzebra);
 		  
 		  
 		  
