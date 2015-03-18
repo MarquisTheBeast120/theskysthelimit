@@ -1,5 +1,6 @@
 package theskysthelimit;
 
+import java.awt.BorderLayout;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -28,7 +29,7 @@ public class llklklkl {
 		  JFrame e = new JFrame();
 		  e.setSize(600,600);
 		  e.setVisible(true);
-		  e.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+	
 		  
 		  JPanel v = new JPanel();
 		   JLabel m = new JLabel("Click here to enter the zoo"); 
@@ -80,11 +81,11 @@ public class llklklkl {
 			  {
 				  ez X = new ez();
 				  DrawPanel drawPanel = X.new DrawPanel();
-				  System.out.println("piggy");
 				  JFrame x = new JFrame();
+				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 				  x.setSize(800,800);
 				  x.setVisible(true);
-                   
+                        
 			  }
 			 
   });  
@@ -127,7 +128,10 @@ public class llklklkl {
 					@Override
 					public void actionPerformed(ActionEvent a)
 					{
-						JOptionPane.showMessageDialog(null, "penguin");
+						 jPenguin X = new jPenguin();
+						  JFrame x = new JFrame();
+						  x.setSize(800,800);
+						  x.setVisible(true);
 					}
 				 });
 			 b8.addActionListener(new ActionListener(){
