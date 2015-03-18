@@ -84,7 +84,6 @@ public class llklklkl {
 				  JFrame x = new JFrame();
 				  x.setSize(800,800);
 				  x.setVisible(true);
-				  x.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
                    
 			  }
 			 
