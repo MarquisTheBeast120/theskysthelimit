@@ -26,7 +26,9 @@ public class llklklkl {
 	
 	public void bveudf(){
 		
+		
 		  JFrame e = new JFrame();
+		
 		  e.setSize(600,600);
 		  e.setVisible(true);
 	
@@ -55,7 +57,7 @@ public class llklklkl {
 		  JFrame w = new JFrame();
 		  w.setSize(600,600);
 		  w.setVisible(true);
-		  w.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		
 		  //JPanel
 		  JPanel v = new JPanel();
 		  JPanel p = new JPanel();
@@ -83,7 +85,7 @@ public class llklklkl {
 				  DrawPanel drawPanel = X.new DrawPanel();
 				  JFrame x = new JFrame();
 				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-				  x.setSize(800,800);
+				  x.setSize(1700,1000);
 				  x.setVisible(true);
                         
 			  }
@@ -97,7 +99,7 @@ public class llklklkl {
 					 theskysthelimit.Squid.DrawPanel drawPanel = X.new DrawPanel();
 					  JFrame x = new JFrame();
 					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-					  x.setSize(800,800);
+					  x.setSize(1700,1000);
 					  x.setVisible(true);				}
 			 });		
 		  bsnake.addActionListener(new ActionListener(){ //done
@@ -108,7 +110,7 @@ public class llklklkl {
 		 			theskysthelimit.jsnake.DrawSnakePanel drawSnakePanel = X.new DrawSnakePanel();
 					  JFrame x = new JFrame();
 					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);
-					  x.setSize(800,800);
+					  x.setSize(1700,1000);
 					  x.setVisible(true);					}
 				 });
 			 bgiraffe.addActionListener(new ActionListener(){   //done
@@ -119,7 +121,7 @@ public class llklklkl {
 						 theskysthelimit.Giraffeeeeeeeee.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);					}
 				 });
 			 bhippo.addActionListener(new ActionListener(){   //done
@@ -130,7 +132,7 @@ public class llklklkl {
 						 theskysthelimit.hippo.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);					}
 				 });
 			 bbunny.addActionListener(new ActionListener(){  //done
@@ -141,7 +143,7 @@ public class llklklkl {
 						 theskysthelimit.habitat.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);					}
 				 });
 			 bpenguin.addActionListener(new ActionListener(){   //done
@@ -152,7 +154,7 @@ public class llklklkl {
 						  theskysthelimit.jPenguin.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);
 					}
 				 });
@@ -164,7 +166,7 @@ public class llklklkl {
 						 theskysthelimit.Shark.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);					}
 				 });
 			 bzebra.addActionListener(new ActionListener(){ //done
@@ -175,7 +177,7 @@ public class llklklkl {
 						 theskysthelimit.Zebra.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(800,800);
+						  x.setSize(1700,1000);
 						  x.setVisible(true);					}
 				 });
 			 
