@@ -29,12 +29,13 @@ public class llklklkl {
 		
 		  JFrame e = new JFrame();
 		
-		  e.setSize(600,600);
+		  e.setSize(1000,900);
 		  e.setVisible(true);
 	
 		  
 		  JPanel v = new JPanel();
 		   JLabel m = new JLabel("Click here to enter the zoo"); 
+		   ImagePanel imagething = new ImagePanel();
 		  
 		  JButton B0 = new JButton("enter");
 		  B0.addActionListener(new ActionListener(){
@@ -45,9 +46,11 @@ public class llklklkl {
 			  }
 			 
   });  
+		  
 		  e.add(v);
 		  v.add(m);
 		  v.add(B0);
+		  v.add(imagething);
 	}
 	
 	
