@@ -2,14 +2,17 @@ package theskysthelimit;
 
 import java.awt.BorderLayout;
 import java.awt.Graphics;
+import java.awt.LayoutManager;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
+import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JLabel;
+import javax.swing.OverlayLayout;
 
 import theskysthelimit.ez.DrawPanel;
 
@@ -34,8 +37,13 @@ public class llklklkl {
 	
 		  
 		  JPanel v = new JPanel();
+		  //LayoutManager overlay = new OverlayLayout(v);
+		  //v.setLayout(overlay);
 		   JLabel m = new JLabel("Click here to enter the zoo"); 
-		   ImagePanel imagething = new ImagePanel();
+		  // ImagePanel imagething = new ImagePanel();
+		  // JLabel lblImage = new JLabel(imagething.image);
+		  // Wolf wolfie = new Wolf();
+		   JLabel imgLabel = new JLabel(new ImageIcon("./res/601px-Temporary_plate_green.svg_.png"));
 		  
 		  JButton B0 = new JButton("enter");
 		  B0.addActionListener(new ActionListener(){
@@ -47,10 +55,13 @@ public class llklklkl {
 			 
   });  
 		  
-		  e.add(v);
-		  v.add(m);
+		  e.add(v, BorderLayout.EAST);
+		  v.add(m, BorderLayout.CENTER);
 		  v.add(B0);
-		  v.add(imagething);
+		  v.add(imgLabel, BorderLayout.CENTER);
+//		  v.add(imagething, 0, -1);
+		  //v.add(wolfie, 0, -1);
+		  
 	}
 	
 	
