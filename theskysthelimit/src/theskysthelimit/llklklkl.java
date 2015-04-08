@@ -37,13 +37,13 @@ public class llklklkl {
 	
 		  
 		  JPanel v = new JPanel();
-		  //LayoutManager overlay = new OverlayLayout(v);
-		  //v.setLayout(overlay);
-		   JLabel m = new JLabel("Click here to enter the zoo"); 
+		 // layoutManager overlay = new OverlayLayout(v);
+		//  v.setLayout(overlay);
+		  JLabel m = new JLabel("Click here to enter the zoo"); 
 		  // ImagePanel imagething = new ImagePanel();
 		  // JLabel lblImage = new JLabel(imagething.image);
 		  // Wolf wolfie = new Wolf();
-		   JLabel imgLabel = new JLabel(new ImageIcon("./res/601px-Temporary_plate_green.svg_.png"));
+		   JLabel imgLabel = new JLabel(new ImageIcon("./src/animal.jpg"));
 		  
 		  JButton B0 = new JButton("enter");
 		  B0.addActionListener(new ActionListener(){
@@ -55,7 +55,7 @@ public class llklklkl {
 			 
   });  
 		  
-		  e.add(v, BorderLayout.EAST);
+	  e.add(v, BorderLayout.EAST);
 		  v.add(m, BorderLayout.CENTER);
 		  v.add(B0);
 		  v.add(imgLabel, BorderLayout.CENTER);
