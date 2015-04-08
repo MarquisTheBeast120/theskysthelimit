@@ -38,7 +38,7 @@ public class llklklkl {
 		  
 		  JPanel v = new JPanel();
 		 // layoutManager overlay = new OverlayLayout(v);
-		//  v.setLayout(overlay);
+		// f v.setLayout(overlay);
 		  JLabel m = new JLabel("Click here to enter the zoo"); 
 		  // ImagePanel imagething = new ImagePanel();
 		  // JLabel lblImage = new JLabel(imagething.image);
