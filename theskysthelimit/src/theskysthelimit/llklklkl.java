@@ -37,13 +37,11 @@ public class llklklkl {
 	
 		  
 		  JPanel v = new JPanel();
+		  JPanel x = new JPanel();
 
-		  JLabel m = new JLabel("Click here to enter the zoo"); 
-		  // ImagePanel imagething = new ImagePanel();
-		  // JLabel lblImage = new JLabel(imagething.image);
-		  // Wolf wolfie = new Wolf();
+		  	//front picture
 		   JLabel imgLabel = new JLabel(new ImageIcon("./src/animal.jpg"));
-		  
+		  //enter button
 		  JButton B0 = new JButton("enter");
 		  B0.addActionListener(new ActionListener(){
 			  @Override
@@ -53,44 +51,43 @@ public class llklklkl {
 			  }
 			 
   });  
+		  //adding button and pic to jframe
+	  e.add(v, BorderLayout.CENTER);
+	  e.add(x, BorderLayout.SOUTH);
+	  v.add(imgLabel, BorderLayout.WEST);
+		  x.add(B0);
 		  
-	  e.add(v, BorderLayout.EAST);
-		  v.add(m, BorderLayout.CENTER);
-		  v.add(B0);
-		  v.add(imgLabel, BorderLayout.CENTER);
-//		  v.add(imagething, 0, -1);
-		  //v.add(wolfie, 0, -1);
-		  
+	
 	}
 	
 	
 	public void frame(){
-		//JFrame
+		//JFrame of second window
 		  
 		  JFrame w = new JFrame();
 		  w.setSize(600,600);
 		  w.setVisible(true);
 		
-		  //JPanel
+		  //JPanel of second window
 		  JPanel v = new JPanel();
 		  JPanel p = new JPanel();
 		  	  
-		  //all buttons	
+		  //all of the buttons	
 		 
-		  JButton bpig= new JButton("pig"); 
+		  JButton bpig= new JButton("Pig"); 
 		 JButton bSquid = new JButton("Squid");
-		 JButton bsnake = new JButton("snake");
-		 JButton bgiraffe = new JButton("giraffe");
-		 JButton bhippo = new JButton("hippo");
-		 JButton bbunny = new JButton("bunny");
-		 JButton bpenguin = new JButton("penguin");
-		 JButton bshark = new JButton("shark");
-		 JButton bzebra= new JButton("zebra");
+		 JButton bsnake = new JButton("Snake");
+		 JButton bgiraffe = new JButton("Giraffe");
+		 JButton bhippo = new JButton("Hippo");
+		 JButton bbunny = new JButton("Bunny");
+		 JButton bpenguin = new JButton("Penguin");
+		 JButton bshark = new JButton("Shark");
+		 JButton bzebra= new JButton("Zebra");
 		 
 		//button's actions 
 		 
-  
-		  bpig.addActionListener(new ActionListener(){  //done
+		 	
+		  bpig.addActionListener(new ActionListener(){  
 			  @Override
 			  public void actionPerformed(ActionEvent e)
 			  {
@@ -99,12 +96,12 @@ public class llklklkl {
 				  JFrame x = new JFrame();
 				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 				  x.setSize(1700,1000);
-				  x.setVisible(true);
+				  x.setVisible(true); //pig
                         
 			  }
 			 
-  });  
-		  bSquid.addActionListener(new ActionListener(){  //done
+  });  		
+		  bSquid.addActionListener(new ActionListener(){  
 				@Override
 				public void actionPerformed(ActionEvent r)
 				{
@@ -113,9 +110,10 @@ public class llklklkl {
 					  JFrame x = new JFrame();
 					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 					  x.setSize(1700,1000);
-					  x.setVisible(true);				}
-			 });		
-		  bsnake.addActionListener(new ActionListener(){ //done
+					  x.setVisible(true); //squid	
+			  }
+   });		
+		  bsnake.addActionListener(new ActionListener(){ 
 		 		@Override
 					public void actionPerformed(ActionEvent u)
 					{
@@ -124,9 +122,10 @@ public class llklklkl {
 					  JFrame x = new JFrame();
 					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);
 					  x.setSize(1700,1000);
-					  x.setVisible(true);					}
-				 });
-			 bgiraffe.addActionListener(new ActionListener(){   //done
+					  x.setVisible(true); //snake
+			  }
+	});		
+			 bgiraffe.addActionListener(new ActionListener(){   
 					@Override
 					public void actionPerformed(ActionEvent i)
 					{
@@ -135,9 +134,10 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);					}
-				 });
-			 bhippo.addActionListener(new ActionListener(){   //done
+						  x.setVisible(true); //giraffe					
+			  }
+	});			
+			 bhippo.addActionListener(new ActionListener(){   
 					@Override
 					public void actionPerformed(ActionEvent o)
 					{
@@ -146,9 +146,10 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);					}
-				 });
-			 bbunny.addActionListener(new ActionListener(){  //done
+						  x.setVisible(true); //hippo				
+			   }
+	 }); 		
+			 bbunny.addActionListener(new ActionListener(){  
 					@Override
 					public void actionPerformed(ActionEvent p)
 					{
@@ -157,9 +158,10 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);					}
-				 });
-			 bpenguin.addActionListener(new ActionListener(){   //done
+						  x.setVisible(true); //bunny					
+				}
+	 });		
+			 bpenguin.addActionListener(new ActionListener(){   
 					@Override
 					public void actionPerformed(ActionEvent a)
 					{
@@ -168,10 +170,10 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);
+						  x.setVisible(true); //penguin
 					}
-				 });
-			 bshark.addActionListener(new ActionListener(){ //done
+	 }); 	
+			 bshark.addActionListener(new ActionListener(){ 
 					@Override
 					public void actionPerformed(ActionEvent s)
 					{
@@ -180,9 +182,10 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);					}
-				 });
-			 bzebra.addActionListener(new ActionListener(){ //done
+						  x.setVisible(true); //shark				
+					}
+	 });
+			 bzebra.addActionListener(new ActionListener(){ 
 					@Override
 					public void actionPerformed(ActionEvent d)
 					{
@@ -191,12 +194,13 @@ public class llklklkl {
 						  JFrame x = new JFrame();
 						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
 						  x.setSize(1700,1000);
-						  x.setVisible(true);					}
-				 });
+						  x.setVisible(true); //zebra
+					}
+	  });
 			 
 			 
 	     
-	   
+	   //adds buttons onto jframe
 		  w.add(p);
 		  p.add(bpig);
 		  p.add(bSquid);
