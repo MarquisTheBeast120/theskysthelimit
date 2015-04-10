@@ -1,5 +1,4 @@
 package theskysthelimit;
-
 import java.awt.BorderLayout;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -14,12 +13,7 @@ import theskysthelimit.ez.DrawPanel;
 public class llklklkl {
 	public llklklkl(){
 		bveudf();
-			
-		
 	}
-	
-		
-	
 	
 	public void bveudf(){
 		
@@ -51,9 +45,6 @@ public class llklklkl {
 	  v.add(imgLabel);
 		  x.add(B0);
 	}	  
-	
-	
-	
 	
 	public void frame(){
 		//JFrame of second window
@@ -203,14 +194,8 @@ public class llklklkl {
 		  p.add(bbunny);
 		  p.add(bpenguin);
 		  p.add(bshark);
-		  p.add(bzebra);
-		  
-		  
+		  p.add(bzebra);	  
 	}
-		  
-		  
-	
-	
 	
 	public static void main(String[] args)
 	{
