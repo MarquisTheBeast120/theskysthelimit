@@ -29,7 +29,7 @@ public class llklklkl {
 	
 	public void bveudf(){
 		
-		
+		//first page white background
 		  JFrame e = new JFrame();
 		
 		  e.setSize(1000,900);
@@ -52,13 +52,13 @@ public class llklklkl {
 			 
   });  
 		  //adding button and pic to jframe
-	  e.add(v, BorderLayout.CENTER);
-	  e.add(x, BorderLayout.SOUTH);
-	  v.add(imgLabel, BorderLayout.WEST);
+	  e.add(v, BorderLayout.CENTER); //it is in the center because it looks better
+	  e.add(x, BorderLayout.SOUTH); //if this was center, the picture does not show up
+	  v.add(imgLabel);
 		  x.add(B0);
-		  
+	}	  
 	
-	}
+	
 	
 	
 	public void frame(){
@@ -72,7 +72,7 @@ public class llklklkl {
 		  JPanel v = new JPanel();
 		  JPanel p = new JPanel();
 		  	  
-		  //all of the buttons	
+		  //all of the buttons and what they say
 		 
 		  JButton bpig= new JButton("Pig"); 
 		 JButton bSquid = new JButton("Squid");
@@ -84,7 +84,7 @@ public class llklklkl {
 		 JButton bshark = new JButton("Shark");
 		 JButton bzebra= new JButton("Zebra");
 		 
-		//button's actions 
+		//buttons' actions 
 		 
 		 	
 		  bpig.addActionListener(new ActionListener(){  
@@ -94,13 +94,13 @@ public class llklklkl {
 				  ez X = new ez();
 				  DrawPanel drawPanel = X.new DrawPanel();
 				  JFrame x = new JFrame();
-				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-				  x.setSize(1700,1000);
+				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+				  x.setSize(1700,1000);//size of the window
 				  x.setVisible(true); //pig
                         
 			  }
-			 
-  });  		
+	});
+
 		  bSquid.addActionListener(new ActionListener(){  
 				@Override
 				public void actionPerformed(ActionEvent r)
@@ -108,8 +108,8 @@ public class llklklkl {
 					   Squid X = new Squid();
 					 theskysthelimit.Squid.DrawPanel drawPanel = X.new DrawPanel();
 					  JFrame x = new JFrame();
-					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-					  x.setSize(1700,1000);
+					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+					  x.setSize(1700,1000);//size of the window
 					  x.setVisible(true); //squid	
 			  }
    });		
@@ -120,8 +120,8 @@ public class llklklkl {
 		 			 jsnake X = new jsnake();
 		 			theskysthelimit.jsnake.DrawSnakePanel drawSnakePanel = X.new DrawSnakePanel();
 					  JFrame x = new JFrame();
-					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);
-					  x.setSize(1700,1000);
+					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);// draws picture in the middle of the jframe
+					  x.setSize(1700,1000);//size of the window
 					  x.setVisible(true); //snake
 			  }
 	});		
@@ -132,8 +132,8 @@ public class llklklkl {
 						 Giraffeeeeeeeee X = new Giraffeeeeeeeee();
 						 theskysthelimit.Giraffeeeeeeeee.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //giraffe					
 			  }
 	});			
@@ -144,8 +144,8 @@ public class llklklkl {
 						 hippo X = new hippo();
 						 theskysthelimit.hippo.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //hippo				
 			   }
 	 }); 		
@@ -156,8 +156,8 @@ public class llklklkl {
 						 habitat X = new habitat();
 						 theskysthelimit.habitat.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //bunny					
 				}
 	 });		
@@ -168,8 +168,8 @@ public class llklklkl {
 						jPenguin X = new jPenguin();
 						  theskysthelimit.jPenguin.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //penguin
 					}
 	 }); 	
@@ -180,8 +180,8 @@ public class llklklkl {
 						 Shark X = new Shark();
 						 theskysthelimit.Shark.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //shark				
 					}
 	 });
@@ -192,8 +192,8 @@ public class llklklkl {
 						 Zebra X = new Zebra();
 						 theskysthelimit.Zebra.DrawPanel drawPanel = X.new DrawPanel();
 						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);
-						  x.setSize(1700,1000);
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//size of the window
 						  x.setVisible(true); //zebra
 					}
 	  });
@@ -213,9 +213,9 @@ public class llklklkl {
 		  p.add(bzebra);
 		  
 		  
+	}
 		  
 		  
-		  }
 	
 	
 	
@@ -224,5 +224,5 @@ public class llklklkl {
 	new llklklkl();
 	}
 		  }
-	 
+	
 
