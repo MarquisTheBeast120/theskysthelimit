@@ -29,7 +29,7 @@ public class llklklkl {
 	
 	public void bveudf(){
 		
-		
+		//first page white background
 		  JFrame e = new JFrame();
 		
 		  e.setSize(1000,900);
@@ -100,7 +100,8 @@ public class llklklkl {
                         
 			  }
 			 
-  });  		
+  });  		+
+  
 		  bSquid.addActionListener(new ActionListener(){  
 				@Override
 				public void actionPerformed(ActionEvent r)
