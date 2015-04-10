@@ -63,7 +63,6 @@ public class llklklkl {
 		  w.setVisible(true);
 		
 		  //JPanel of second window
-		  JPanel v = new JPanel();
 		  JPanel p = new JPanel();
 		  	  
 		  //all of the buttons and what they say
