@@ -10,22 +10,22 @@ import javax.swing.JLabel;
 import theskysthelimit.ez.DrawPanel;
 
 
-public class llklklkl {
-	public llklklkl(){
-		bveudf();
+public class llklklkl { 
+	public llklklkl(){ //allows access to this class
+		bveudf(); //runs this method
 	}
 	
-	public void bveudf(){
+	public void bveudf(){ //contains our entire program within
 		
-		//first page white background
-		  JFrame e = new JFrame();
 		
-		  e.setSize(1000,900);
-		  e.setVisible(true);
+		  JFrame e = new JFrame(); //first page white background
+		
+		  e.setSize(1000,900); 
+		  e.setVisible(true); 
 	
 		  
-		  JPanel v = new JPanel();
-		  JPanel x = new JPanel();
+		  JPanel v = new JPanel(); //picture layer
+		  JPanel x = new JPanel(); //button layer
 
 		  	//front picture
 		   JLabel imgLabel = new JLabel(new ImageIcon("./src/animal.jpg"));
@@ -40,18 +40,18 @@ public class llklklkl {
 			 
   });  
 		  //adding button and pic to jframe
-	  e.add(v, BorderLayout.CENTER); //it is in the center because it looks better
-	  e.add(x, BorderLayout.SOUTH); //if this was center, the picture does not show up
-	  v.add(imgLabel);
-		  x.add(B0);
+	  e.add(v, BorderLayout.CENTER); // places image in the middle of the frame
+	  e.add(x, BorderLayout.SOUTH);  // places the button below the picture
+	  v.add(imgLabel);  //brings up picture to be used
+		  x.add(B0); // adds button to the frame
 	}	  
 	
 	public void frame(){
 		//JFrame of second window
 		  
-		  JFrame w = new JFrame();
-		  w.setSize(600,600);
-		  w.setVisible(true);
+		  JFrame w = new JFrame(); //second page
+		  w.setSize(600,600); //size of page
+		  w.setVisible(true); // makes page 
 		
 		  //JPanel of second window
 		  JPanel p = new JPanel();
@@ -67,124 +67,7 @@ public class llklklkl {
 		 JButton bpenguin = new JButton("Penguin");
 		 JButton bshark = new JButton("Shark");
 		 JButton bzebra= new JButton("Zebra");
-		 
-		//buttons' actions 
-		 
-		 	
-		  bpig.addActionListener(new ActionListener(){  
-			  @Override
-			  public void actionPerformed(ActionEvent e)
-			  {
-				  ez X = new ez();
-				  DrawPanel drawPanel = X.new DrawPanel();
-				  JFrame x = new JFrame();
-				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-				  x.setSize(1700,1000);//size of the window
-				  x.setVisible(true); //pig
-                        
-			  }
-	});
-
-		  bSquid.addActionListener(new ActionListener(){  
-				@Override
-				public void actionPerformed(ActionEvent r)
-				{
-					   Squid X = new Squid();
-					 theskysthelimit.Squid.DrawPanel drawPanel = X.new DrawPanel();
-					  JFrame x = new JFrame();
-					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-					  x.setSize(1700,1000);//size of the window
-					  x.setVisible(true); //squid	
-			  }
-   });		
-		  bsnake.addActionListener(new ActionListener(){ 
-		 		@Override
-					public void actionPerformed(ActionEvent u)
-					{
-		 			 jsnake X = new jsnake();
-		 			theskysthelimit.jsnake.DrawSnakePanel drawSnakePanel = X.new DrawSnakePanel();
-					  JFrame x = new JFrame();
-					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);// draws picture in the middle of the jframe
-					  x.setSize(1700,1000);//size of the window
-					  x.setVisible(true); //snake
-			  }
-	});		
-			 bgiraffe.addActionListener(new ActionListener(){   
-					@Override
-					public void actionPerformed(ActionEvent i)
-					{
-						 Giraffeeeeeeeee X = new Giraffeeeeeeeee();
-						 theskysthelimit.Giraffeeeeeeeee.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //giraffe					
-			  }
-	});			
-			 bhippo.addActionListener(new ActionListener(){   
-					@Override
-					public void actionPerformed(ActionEvent o)
-					{
-						 hippo X = new hippo();
-						 theskysthelimit.hippo.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //hippo				
-			   }
-	 }); 		
-			 bbunny.addActionListener(new ActionListener(){  
-					@Override
-					public void actionPerformed(ActionEvent p)
-					{
-						 habitat X = new habitat();
-						 theskysthelimit.habitat.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //bunny					
-				}
-	 });		
-			 bpenguin.addActionListener(new ActionListener(){   
-					@Override
-					public void actionPerformed(ActionEvent a)
-					{
-						jPenguin X = new jPenguin();
-						  theskysthelimit.jPenguin.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //penguin
-					}
-	 }); 	
-			 bshark.addActionListener(new ActionListener(){ 
-					@Override
-					public void actionPerformed(ActionEvent s)
-					{
-						 Shark X = new Shark();
-						 theskysthelimit.Shark.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //shark				
-					}
-	 });
-			 bzebra.addActionListener(new ActionListener(){ 
-					@Override
-					public void actionPerformed(ActionEvent d)
-					{
-						 Zebra X = new Zebra();
-						 theskysthelimit.Zebra.DrawPanel drawPanel = X.new DrawPanel();
-						  JFrame x = new JFrame();
-						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
-						  x.setSize(1700,1000);//size of the window
-						  x.setVisible(true); //zebra
-					}
-	  });
-			 
-			 
-	     
-	   //adds buttons onto jframe
+		 //adds buttons onto jframe of page 2
 		  w.add(p);
 		  p.add(bpig);
 		  p.add(bSquid);
@@ -195,12 +78,127 @@ public class llklklkl {
 		  p.add(bpenguin);
 		  p.add(bshark);
 		  p.add(bzebra);	  
-	}
 	
-	public static void main(String[] args)
+	
+		 
+		 
+		//buttons' actions 
+		  bpig.addActionListener(new ActionListener(){  //waits for button to be pressed
+			  @Override
+			  public void actionPerformed(ActionEvent e) // starts the series of commands below
+			  {
+				  ez X = new ez();//creates variable
+				  DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+				  JFrame x = new JFrame();//creates new jframe for animal
+				  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+				  x.setSize(1700,1000);//sets size of the window
+				  x.setVisible(true); //allows you to see the pig
+                        
+			  }
+	});
+
+		  bSquid.addActionListener(new ActionListener(){  //waits for button to be pressed
+				@Override
+				public void actionPerformed(ActionEvent r)
+				{
+					   Squid X = new Squid();//creates variable
+					 theskysthelimit.Squid.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+					  JFrame x = new JFrame();//creates new jframe for animal
+					  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+					  x.setSize(1700,1000);//sets size of the window
+					  x.setVisible(true); //allows you to see the squid	
+			  }
+   });		
+		  bsnake.addActionListener(new ActionListener(){ //waits for button to be pressed
+		 		@Override
+					public void actionPerformed(ActionEvent u)
+					{
+		 			 jsnake X = new jsnake();//creates variable
+		 			theskysthelimit.jsnake.DrawSnakePanel drawSnakePanel = X.new DrawSnakePanel();//puts animal in a draw pannel
+					  JFrame x = new JFrame();//creates new jframe for animal
+					  x.getContentPane().add(BorderLayout.CENTER, drawSnakePanel);// draws picture in the middle of the jframe
+					  x.setSize(1700,1000);//sets size of the window
+					  x.setVisible(true); //allows you to see the snake
+			  }
+	});		
+			 bgiraffe.addActionListener(new ActionListener(){   //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent i)
+					{
+						 Giraffeeeeeeeee X = new Giraffeeeeeeeee();//creates variable
+						 theskysthelimit.Giraffeeeeeeeee.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); //allows you to see the giraffe					
+			  }
+	});			
+			 bhippo.addActionListener(new ActionListener(){   //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent o)
+					{
+						 hippo X = new hippo();//creates variable
+						 theskysthelimit.hippo.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); //allows you to see the hippo				
+			   }
+	 }); 		
+			 bbunny.addActionListener(new ActionListener(){  //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent p)
+					{
+						 habitat X = new habitat();//creates variable
+						 theskysthelimit.habitat.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); //allows you to see the bunny					
+				}
+	 });		
+			 bpenguin.addActionListener(new ActionListener(){   //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent a)
+					{
+						jPenguin X = new jPenguin();//creates variable
+						  theskysthelimit.jPenguin.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); //allows you to see the penguin
+					}
+	 }); 	
+			 bshark.addActionListener(new ActionListener(){ //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent s)
+					{
+						 Shark X = new Shark();//creates variable
+						 theskysthelimit.Shark.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); //allows you to see the shark				
+					}
+	 });
+			 bzebra.addActionListener(new ActionListener(){ //waits for button to be pressed
+					@Override
+					public void actionPerformed(ActionEvent d)
+					{
+						 Zebra X = new Zebra();//creates variable
+						 theskysthelimit.Zebra.DrawPanel drawPanel = X.new DrawPanel();//puts animal in a draw pannel
+						  JFrame x = new JFrame();//creates new jframe for animal
+						  x.getContentPane().add(BorderLayout.CENTER, drawPanel);// draws picture in the middle of the jframe
+						  x.setSize(1700,1000);//sets size of the window
+						  x.setVisible(true); // allows you to see the zebra
+					}
+	  });}
+			 
+	     
+	  
+	public static void main(String[] args) //starts here
 	{
-	new llklklkl();
+	new llklklkl(); //creates object 
 	}
 		  }
 	
-
